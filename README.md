@@ -19,7 +19,7 @@ The same macroeconomic event can lead to very different market reactions dependi
 | `Text_MLProject.py` | Retrieves embedded news for a given stock; supports both raw embeddings and PCA-reduced representations; includes `checkTheSimilarityEmb` to retrieve similar past text given a query |
 | `MacroData_MLProject.py` | Builds macroeconomic features, correctly aligned to **publication date** rather than reference period, plus a countdown-to-release feature |
 | `Stock_MLProject.py` | Builds stock-specific financial features |
-| `Utilities.py` | `download_data` and `normalize` — handle dataset assembly, train/test split, and normalization |
+| `Utilities.py` | `download_data` and `normalize`, handle dataset assembly, train/test split, and normalization |
 | `TransformerForTimeSeriesStepByStepFixed.ipynb` | Full from-scratch implementation of the Transformer, built step by step |
 
 ## Usage
