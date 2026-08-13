@@ -2,11 +2,11 @@
 
 A Transformer built **from scratch**, step by step, to investigate whether news and macroeconomic context can improve next-day stock return prediction for a specific stock.
 
-The core idea: use the attention mechanism as a **context-retrieval system** : given the current market environment, the model identifies similar past contexts and uses them to inform its prediction.
+The core idea: use the attention mechanism as a **context-retrieval system**: given the current market environment, the model identifies similar past contexts and uses them to inform its prediction.
 
 ## Motivation
 
-The same macroeconomic event can lead to very different market reactions depending on context. A rise in inflation, for example, is read very differently during periods of low vs. high interest rates, low vs. high unemployment, or in a bullish vs. bearish market. This project treats **context as a first-class input**, not an afterthought, using three data modalities:
+The same macroeconomic event can lead to very different market reactions depending on context. A rise in inflation, for example, is read very differently during periods of low vs. high interest rates, low vs. high unemployment, or in a bullish vs. bearish market. This project treats **context as a first-class input, using three data modalities:
 
 - **Financial data** — technical indicators and stock-specific features
 - **Macroeconomic data** — Fed-relevant indicators, treasury dynamics, employment and inflation data, with countdowns to publication dates (accounting for the fact that markets react to the *release* date, not the reference period)
