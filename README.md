@@ -2,7 +2,7 @@
 
 A Transformer built **from scratch**, step by step, to investigate whether news and macroeconomic context can improve next-day stock return prediction for a specific stock.
 
-The core idea: use the attention mechanism as a **context-retrieval system** — given the current market environment, the model identifies similar past contexts and uses them to inform its prediction, rather than treating each day as independent.
+The core idea: use the attention mechanism as a **context-retrieval system** : given the current market environment, the model identifies similar past contexts and uses them to inform its prediction.
 
 ## Motivation
 
